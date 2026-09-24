@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:text="Registration"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="50dp"
+            android:text="Choose Gender"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="145dp"
+            android:layout_marginStart="50dp">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/lang"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="275dp"
+            android:layout_marginStart="50dp"
+            android:text="Select Known Languages"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:layout_marginStart="50dp"
+            android:text="English" />
+
+        <CheckBox
+            android:id="@+id/m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:layout_marginStart="50dp"
+            android:text="Malayalam" />
+
+        <CheckBox
+            android:id="@+id/h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:layout_marginStart="50dp"
+            android:text="Hindi" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="475dp"
+            android:layout_centerHorizontal="true"
+            android:text="Submit" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="550dp"
+            android:layout_centerHorizontal="true"
+            android:text=""
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
